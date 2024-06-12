@@ -69,12 +69,12 @@ def view_diary_entries(user):
     diary_entries = session.query(DiaryEntry).filter_by(user=user).all()
     for diary_entry in diary_entries:
         print(f"{diary_entry.date}: {diary_entry.title} - {diary_entry.content}")
-
+        
 def find_diary_entry_by_title(user):
     title = input("Enter the title of the diary entry you're looking for: ")
     diary_entry = session.query(DiaryEntry).filter_by(user=user, title=title).first()
     if diary_entry:
-        print(diary_entry)
+        print(f"Title: {diary_entry.title}, Content: {diary_entry.content}")
     else:
         print("Diary entry not found.")
 
