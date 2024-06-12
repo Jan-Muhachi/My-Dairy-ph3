@@ -1,3 +1,17 @@
+# My Diary.
+
+This Python project implements a simple personal diary application using a SQLite database. Users can create accounts, write diary entries, and view or delete their entries.
+
+## Features:
+
+• User accounts with usernames and passwords (unique usernames enforced).
+
+• Creation, viewing, searching by title, and deletion of diary entries.
+
+• Timestamped diary entries (creation date).
+
+• Personalized greetings based on the time of day.
+
 ## Technology:
 
 • Python 3
