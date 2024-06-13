@@ -20,12 +20,19 @@ This Python project implements a simple personal diary application using a SQLit
 
 • SQLite (for data storage)
 
+
 ## How to Use:
 
 Install Dependencies: You'll need to have sqlalchemy installed. You can install it using pip:
 
 ```Bash
 pip install sqlalchemy
+```
+```Bash
+pipenv install
+```
+```Bash
+pipenv shell
 ```
 
 Run the Application: Open a terminal in the project directory and run:
